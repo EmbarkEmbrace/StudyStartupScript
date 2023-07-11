@@ -11,8 +11,10 @@ def getStarted():
     webbrowser.open("https://www.udemy.com/", new = 0)
     # Calling webbrowser module to open URL: "https://github.com/" 
     webbrowser.open("https://github.com/", new = 0)
-    # Calling os module to run VSCode, using it's local path. You will need to find       said path, and replace the path specified below for thsi to function. 
+    # Calling os module to run VSCode, using it's local path. You will need to find said path, and replace the path specified below for this to function. 
     os.startfile("C:\\Users\\... \\Programs\\Visual Studio Code\\Visual Studio Code.lnk")
 
 # Running function.
 getStarted()
+
+# Remember to install pyinstaller and use it to create an executable.
